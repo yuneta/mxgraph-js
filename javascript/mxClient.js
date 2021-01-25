@@ -60598,6 +60598,23 @@ mxGraph.prototype.resizeCell = function(cell, bounds, recurse)
 };
 
 /**
+ * Function: resizeCell1
+ *
+ * Sets the bounds of the given cell using <resizeCells>. Returns the
+ * cell which was passed to the function.
+ *
+ * Parameters:
+ *
+ * cell - <mxCell> whose bounds should be changed.
+ * bounds - <mxRectangle> that represents the new bounds.
+ */
+mxGraph.prototype.resizeCell1 = function(cell, bounds, recurse)
+{
+    this.cellsResized([cell], [bounds], recurse);
+    return cell;
+};
+
+/**
  * Function: resizeCells
  *
  * Sets the bounds of the given cells and fires a <mxEvent.RESIZE_CELLS>
