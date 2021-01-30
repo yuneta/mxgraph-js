@@ -22,7 +22,7 @@ var mxClient =
      * versionMajor.versionMinor.buildNumber.revisionNumber
      *
      */
-    VERSION: "4.7.9",
+    VERSION: "4.8.0",
 
     /**
      * Variable: IS_IE
