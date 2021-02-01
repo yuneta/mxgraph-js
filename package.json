@@ -1,6 +1,6 @@
 {
     "name": "mxgraph",
-    "version": "4.8.0",
+    "version": "4.8.1",
     "description": "Fork of mxGraph,the underlying technology that powers the drawing functionality of https://www.draw.io.",
     "private": false,
     "main": "javascript/mxClient.js",
