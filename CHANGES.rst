@@ -1,4 +1,4 @@
-Version "4.9.6" "a"
+Version "4.9.7" "a"
 ===================
 
 Simplify files of original project.
